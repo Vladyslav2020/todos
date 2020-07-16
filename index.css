@@ -1,0 +1,135 @@
+body{
+	background-color: #F4F6F6;
+}
+
+.todos{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+
+.todos .todos-text{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 50px;
+	color: #BDC3C7;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.todos .todos-wrapper{
+	width: 100%;
+	background-color: #FBFCFC;
+	box-shadow: 5px 5px 20px #D7DBDD;
+}
+
+.todos .todos-input{
+	width: 100%;
+	border-bottom: 2px solid #BDC3C7;
+}
+
+.todos .todos-input input{
+	width: calc(100% - 60px);
+	padding: 5px 30px 5px 30px;
+	background-color: #FBFCFC;
+	color: ;
+	font-size: 20px;
+	border: none;
+	outline: none;
+}
+
+::placeholder{
+	color: #EAEDED;
+}
+
+.todos .todos-item{
+	width: 100%;
+}
+
+.todos .todos-items .item{
+	padding: 5px 30px;
+	width: calc(100% - 60px);
+	font-size: 17px;
+	color: #566573;
+	border-bottom: 1px solid #BFC9CA;
+	position: relative;
+}
+	
+.todos .todos-footer{
+	width: calc(100% - 10px);
+	position: relative;
+	color: #566573;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.todos-footer .cnt-items{
+	position: absolute;
+	left: 5px;
+	top: 8px;
+	font-size: 12px;
+	
+}
+
+.todos-footer .button{
+	display: inline-block;
+	padding: 2px;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 7px;
+	margin-left: 20px;
+}
+
+.todos-items .checker{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 9px;
+	left: 9px;
+	border-radius: 10px;
+	border: 1px solid #566573;
+}
+
+.todos-items .checker:hover{
+	background-color: #566573;
+}
+
+.todos-items .complete{
+	background-color: #2ECC71;
+	border-color: #2ECC71;
+}
+
+.todos-footer .btn-right{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.todos-footer .active{
+	border: 1px solid #566573;
+}
+
+.todos .item .remove{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	right: 9px;
+	top: 9px;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	font-size: 10px;
+	text-align: center;
+	padding: 1px;
+	font-weight: 900;
+}
+
+.todos .item .remove:hover{
+	border: 1px solid #566573;
+	color: #566573;
+}
+
+	
+	

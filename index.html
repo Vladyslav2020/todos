@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href = 'index.css' rel = 'stylesheet' />
+</head>
+<body>
+	<div class = 'todos'>
+		<div class = 'todos-text'>todos</div>
+		<div class = 'todos-wrapper'>
+			<div class = 'todos-input'><input autofocus placeholder = 'What needs to be done?'/></div>
+			<div class = 'todos-items'>
+			</div>
+			<div class = 'todos-footer'>
+				<div class = 'cnt-items'><span>0</span> items left</div>
+				<div class = 'buttons'>
+					<div style = 'margin: 0' class = 'button active' onclick = 'show_all()'>All</div>
+					<div class = 'button' onclick = 'show_active()'>Active</div>
+					<div class = 'button' onclick = 'show_complete()'>Completed</div>
+				</div>
+				<div class = 'btn-right'>
+					<div class = 'button' onclick = 'clear_complete()'>Clear completed</div>
+				</div>
+			<div>
+		</div>
+	</div>
+
+<script src = "script.js"> </script>
+<script src = 'main_script.js'> </script>
+
+</body>
+</html>
