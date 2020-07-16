@@ -86,5 +86,6 @@ function clear_complete(){
 
 function remove(elem){
 	elem.parentElement.remove();
-	cntDecrement();
+	if (!elem.parentElement.children[0].classList.contains('complete'))
+		cntDecrement();
 }
