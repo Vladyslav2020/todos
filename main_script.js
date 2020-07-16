@@ -86,4 +86,5 @@ function clear_complete(){
 
 function remove(elem){
 	elem.parentElement.remove();
+	cntDecrement();
 }
