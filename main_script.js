@@ -15,6 +15,12 @@ function add_block_item(){
 		
 	document.querySelector(".todos .todos-items").appendChild(div);
 	cntIncrement();
+	let buttons = document.querySelectorAll('.todos-footer .button');
+	if (buttons[1].classList.contains('active'))
+		show_active();
+	else
+	if (buttons[2].classList.contains('active'))
+		show_complete();
 }
 
 function cntIncrement(){
