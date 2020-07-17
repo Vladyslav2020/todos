@@ -2,12 +2,13 @@
 <html>
 <head>
 <link href = 'index.css' rel = 'stylesheet' />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class = 'todos'>
 		<div class = 'todos-text'>todos</div>
 		<div class = 'todos-wrapper'>
-			<div class = 'todos-input'><input autofocus placeholder = 'What needs to be done?'/></div>
+			<div class = 'todos-input'><i onclick = 'completed_all()' class="fa fa-chevron-down" aria-hidden="true"></i><input autofocus placeholder = 'What needs to be done?'/></div>
 			<div class = 'todos-items'>
 			</div>
 			<div class = 'todos-footer'>
