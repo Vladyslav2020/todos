@@ -26,7 +26,19 @@ body{
 
 .todos .todos-input{
 	width: 100%;
+	position: relative;
 	border-bottom: 2px solid #BDC3C7;
+}
+
+.todos .todos-input i{
+	color: #BDC3C7;
+	position: absolute;
+	left: 6px;
+	top: 8px;
+}
+
+.todos .todos-input i.active{
+	color: black;
 }
 
 .todos .todos-input input{
@@ -101,6 +113,11 @@ body{
 	border-color: #2ECC71;
 }
 
+.todos .todos-items .complete:hover{
+	background-color: #2ECC71;
+	border-color: #2ECC71;
+}
+
 .todos-footer .btn-right{
 	position: absolute;
 	right: 5px;
@@ -116,20 +133,20 @@ body{
 	width: 12px;
 	height: 12px;
 	right: 9px;
-	top: 9px;
+	top: 6px;
 	border-radius: 10px;
 	color: white;
 	cursor: pointer;
-	font-size: 10px;
+	font-size: 15px;
 	text-align: center;
 	padding: 1px;
-	font-weight: 900;
 }
 
-.todos .item .remove:hover{
-	border: 1px solid #566573;
+.todos .todos-items .item .remove:hover{
 	color: #566573;
 }
 
-	
+.todos .item:hover .remove{
+	color: #BFC9CA;
+}
 	
